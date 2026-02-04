@@ -63,19 +63,17 @@ body {
     border-top: 8px solid var(--primary-yellow);
 }
 
-/* --- TYPOGRAPHY --- */
+/* --- LOGO --- */
 .logo {
-    font-size: 1.5rem;
-    font-weight: 800;
-    letter-spacing: -1px;
-    color: var(--text-dark);
     margin-bottom: 2rem;
-    text-transform: uppercase;
 }
 
-.logo span {
-    color: var(--highlight-orange);
+.logo img {
+    max-width: 30%;
+    width: 100%;
 }
+
+/* --- TYPOGRAPHY --- */
 
 h1 {
     font-size: 2.5rem;
